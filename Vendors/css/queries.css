@@ -1,0 +1,352 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 90%;
+  }
+
+  .features .box {
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+  }
+
+  .section-cities .row {
+    max-width: 98%;
+  }
+}
+
+/* Smalltablet */
+@media only screen and (max-width: 1023px) {
+  .hero-text-box {
+    width: 90%;
+  }
+
+  .features .box {
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+  }
+
+  .plan-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .plan-box li {
+    font-size: 0.9rem;
+    margin-bottom: 0.2em;
+    padding: 0.05em;
+  }
+
+  .section-cities .row {
+    max-width: 95%;
+  }
+
+  .section-cities .col {
+    flex-basis: 48%;
+  }
+
+  .section-testimonial .col {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .section-testimonial img {
+    height: 10vh;
+    max-width: 100%;
+  }
+
+  .btn-app {
+    margin: auto;
+  }
+
+  .btn-app img {
+    width: 120px;
+    height: 40px;
+  }
+}
+
+/* for medium-sized phones and small tablets */
+@media only screen and (max-width: 767px) {
+  .hero-text-box {
+    width: 90%;
+  }
+
+  nav {
+    padding: 1em;
+  }
+
+  .nav-part2 {
+    gap: 2vw;
+  }
+
+  .nav-part2 h4 {
+    padding: 0.4em;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  h2::after {
+    margin-bottom: 0.5em;
+  }
+
+  .features .box {
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+  }
+
+  .meals-showcase li {
+    width: calc(50% - 20px);
+  }
+
+  .btn-app {
+    margin: auto;
+  }
+
+  .section-cities .row {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-cities .col {
+    flex-basis: 45%;
+    margin-bottom: 15px;
+  }
+
+  .col .icon {
+    margin: 0px 5px;
+  }
+
+  .feature-description {
+    font-size: 0.9em;
+  }
+
+  .section-testimonial .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-testimonial .col {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .section-testimonial img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .section-testimonial blockquote {
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .section-testimonial blockquote:before {
+    font-size: 30px;
+    left: 15px;
+  }
+
+  .section-testimonial cite {
+    padding-left: 15px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .section-testimonial cite span {
+    font-weight: normal;
+  }
+
+  .plan-box {
+    width: auto;
+    height: auto;
+  }
+
+  .plan-box li {
+    font-size: 1rem;
+    margin-bottom: 0.3em;
+    padding: 0.1em;
+  }
+
+  .btn-sign {
+    font-size: 1em;
+  }
+
+  .features,
+  .section-meals,
+  .section-steps,
+  .section-cities,
+  .section-testimonial,
+  .section-plans {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .section-form form {
+    margin: 1em;
+  }
+
+  footer {
+    padding: 1em;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* for small phone */
+@media only screen and (max-width: 480px) {
+  .hero-text-box {
+    width: 90%;
+  }
+
+  nav {
+    padding: 1vw;
+  }
+
+  .nav-part2 {
+    display: none;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  h2::after {
+    margin-bottom: 0.5em;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  .box {
+    margin-bottom: 1em;
+  }
+
+  .meals-showcase li {
+    width: calc(50% - 20px);
+  }
+
+  .step-number {
+    margin: 0em 0.5em;
+  }
+
+  .works-step p {
+    font-size: 1.2em;
+  }
+
+  .btn-app {
+    margin: auto;
+  }
+
+  .btn-app img {
+    width: 30vw;
+    height: 5vh;
+  }
+
+  .section-cities .row {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .section-testimonial .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-testimonial .col {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .section-testimonial img {
+    height: 50px;
+    width: 40px;
+  }
+
+  .section-testimonial blockquote {
+    font-size: 1.1em;
+  }
+
+  .section-testimonial blockquote:before {
+    font-size: 2em;
+  }
+
+  .section-testimonial cite {
+    font-size: 1em;
+  }
+
+  .section-plans .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em 0;
+    align-items: center;
+  }
+
+  .plan-box {
+    width: 90%;
+  }
+
+  .plan-box li {
+    font-size: 1rem;
+    margin-bottom: 0.3em;
+    padding: 0.1em;
+  }
+
+  .btn-sign {
+    font-size: 1em;
+  }
+
+  .features,
+  .section-meals,
+  .section-steps,
+  .section-cities,
+  .section-testimonial,
+  .section-plans {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .section-form form {
+    margin: 1em;
+  }
+
+  .section-form input,
+  .section-form select,
+  .section-form textarea {
+    width: 100%;
+    padding: 15px;
+  }
+
+  footer {
+    padding: 1em;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
